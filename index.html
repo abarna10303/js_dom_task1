@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+      *{
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+      }
+      button{
+         display: block;
+         padding: 10px;
+         font-size: 15px;
+         background-color: #007384;
+         color: white;
+         border: none;
+         border-radius: 5px;
+         margin-bottom: 10px;
+      }
+      h1{
+         margin-bottom: 10px;
+         color: brown ;
+      }
+    </style>
+</head>
+<body>
+   <h1 id="top">DOM Elements</h1> 
+   <button onclick="elementId()">Alert</button>
+   <h1 id="idelement">This is a getElementById</h1>
+   <button onclick="elementid()">Element Id</button>
+
+   
+   <h1 class="classelement">This is a getElementByClassName</h1>
+   <button onclick="elementclass()">Element Class</button>
+
+
+   <h1 class="classelement">This is a getElementName</h1>
+   <p>First Name: <input name="fname" type="text" value="Michael"></p>
+   <p>First Name: <input name="fname" type="text" value="Doug"></p>
+   <button onclick="ename()">Element Name</button>
+
+
+   <span>Tag Name</span>
+   <button onclick="tagname()">Tag Name</button>
+   <script src="main.js"></script>
+</body>
+</html>
